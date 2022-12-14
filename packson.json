@@ -1,0 +1,35 @@
+{
+    "name": "azuosss tattoo",
+    "version": "1.0.0",
+    "description": "Estudio de tatuagem",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest",
+      "start": "node ./src/server.js",
+      "dev": "nodemon ./src/server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/azuosss/json-serverSOLO"
+    },
+    "author": "Vanessa Cardoso",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/azuosss/json-serverSOLO/issues"
+    },
+    "homepage": "https://github.com/azuosss/json-serverSOLO/blob/main/README.md",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "node-stream": "^1.7.0",
+      "sqlite3": "^5.0.2"
+    },
+    "devDependencies": {
+      "jest": "^27.0.6",
+      "nodemon": "^2.0.12",
+      "supertest": "^6.1.4"
+    },
+    "engines": {
+      "node": "14.16"
+    }
+  }
